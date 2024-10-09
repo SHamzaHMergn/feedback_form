@@ -8,14 +8,18 @@
 		<style>
 			body {
 				display: flex;
-				justify-content: center;
+				flex-direction: column;
+				/* Stack elements vertically */
+				justify-content: flex-end;
+				/* Align items to the bottom */
 				align-items: center;
-				height: 100vh;
-				/* Full height of the viewport */
+				/* Center horizontally */
+				min-height: 100vh;
+				/* Ensure the minimum height is full viewport */
 				background-color: #f0f0f0;
-				font-family: Arial, sans-serif;
 				margin: 0;
 				/* Remove default margin */
+				font-family: Arial, sans-serif;
 			}
 
 			.container {
@@ -24,15 +28,21 @@
 				/* Similar padding to the form */
 				border-radius: 5px;
 				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-				height: 300px;
-				/* Adjust height as needed */
-				display: flex;
-				justify-content: center;
-				align-items: center;
+				/* Set height to 200 pixels */
 				width: 100%;
 				/* Full width */
 				max-width: 400px;
 				/* Optional: set a max width for larger screens */
+				margin-bottom: 20px;
+				/* Space from the bottom */
+				display: flex;
+				/* Flex for button centering */
+				justify-content: center;
+				/* Center button horizontally */
+				align-items: center;
+				/* Center button vertically */
+				white-space: nowrap;
+				/* Prevent wrapping */
 			}
 
 			button {
