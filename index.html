@@ -11,15 +11,20 @@
             align-items: center;
             height: 100vh;
             background-color: #f0f0f0;
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif; /* Set a default font */
         }
         button {
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 15px 30px; /* Increased padding for better touch targets */
+            font-size: 18px; /* Increased font size for readability */
             cursor: pointer;
             background-color: #4CAF50; /* Green */
             color: white;
             border: none;
             border-radius: 5px;
+            width: 90%; /* Make the button responsive */
+            max-width: 300px; /* Set a max width */
+            transition: background-color 0.3s; /* Smooth hover transition */
         }
         button:hover {
             background-color: #45a049; /* Darker green */
