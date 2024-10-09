@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You Button</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Full height of the viewport */
-            margin: 0; /* Remove default margin */
-            font-family: Arial, sans-serif; /* Set a default font */
-            background-color: #f0f0f0;
-        }
-        .container {
-            height: 180px; /* Approximate height for 30% of typical screen sizes */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%; /* Full width */
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-            border-radius: 5px; /* Rounded corners */
-            background-color: white; /* White background for the container */
-        }
-        button {
-            padding: 15px 30px; /* Increased padding */
-            font-size: 18px; /* Increased font size */
-            cursor: pointer;
-            background-color: #4CAF50; /* Green */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            width: 90%; /* Make the button responsive */
-            max-width: 300px; /* Set a max width */
-            transition: background-color 0.3s; /* Smooth hover transition */
-        }
-        button:hover {
-            background-color: #45a049; /* Darker green */
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <button id="u_content_button_thanks">Thank You</button>
-    </div>
-</body>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Thank You Page</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				/* Full height of the viewport */
+				background-color: #f0f0f0;
+				font-family: Arial, sans-serif;
+				margin: 0;
+				/* Remove default margin */
+			}
+
+			.container {
+				background-color: white;
+				padding: 20px;
+				/* Similar padding to the form */
+				border-radius: 5px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+				height: 300px;
+				/* Adjust height as needed */
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				/* Full width */
+				max-width: 400px;
+				/* Optional: set a max width for larger screens */
+			}
+
+			button {
+				padding: 15px 30px;
+				/* Increased padding for better touch targets */
+				font-size: 18px;
+				/* Increased font size */
+				cursor: pointer;
+				background-color: #4CAF50;
+				/* Green */
+				color: white;
+				border: none;
+				border-radius: 5px;
+				width: 90%;
+				/* Make the button responsive */
+				transition: background-color 0.3s;
+				/* Smooth hover transition */
+			}
+
+			button:hover {
+				background-color: #45a049;
+				/* Darker green */
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<button id="u_content_button_thanks">Thank You</button>
+		</div>
+	</body>
+
 </html>
